@@ -1,0 +1,22 @@
+FAKE / NON-FUNCTIONAL plaintext leak dump for scanner testing.
+Not used by the app.
+
+# passwords
+password=Password123!
+admin_password=admin1234
+mysql_root_password=rootroot
+
+# tokens (intentionally broken prefixes)
+GITHUB_TOKEN=ghpX_FAKE_XXXXXXXXXXXXXXXXXXXXXXXX
+SLACK_TOKEN=xoxbX-FAKE-000000000000
+STRIPE_KEY=sk_l1ve_FAKE_XXXXXXXXXXXXXXXX
+
+# urls
+DATABASE_URL=postgresql://user:pass@localhost:5432/db
+REDIS_URL=redis://:pass@localhost:6379/0
+
+# PII-like
+email=someone@example.invalid
+phone=+82-10-0000-0000
+rrn_like=900101-0000000
+address=123 Fake St, Test City
